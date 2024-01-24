@@ -65,6 +65,7 @@ ul li.ativo{
 
 ul li.item-menu:hover {
     background-color: red;
+    transition: 1s;
 }
 
 ul li.item-menu a {

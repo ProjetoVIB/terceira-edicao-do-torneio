@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*Unificações*/
@@ -21,7 +22,6 @@ nav.menu-lateral {
     width: 70px;
     height: 100%;
     background-color: black;
-    padding-top: 30px;
     box-shadow: 3px 0 0 red;
     position: fixed;
     top: 0;
@@ -29,7 +29,6 @@ nav.menu-lateral {
     overflow: hidden;
     transition: 0.5s;
     flex-direction: column;
-    gap: 30px;
 }
 
 nav.menu-lateral.expandir {
@@ -37,6 +36,9 @@ nav.menu-lateral.expandir {
 }
 
 .btn-expandir {
+    display: flex;
+    align-items: center;
+    gap: 25px;
     width: 100%;
     padding-left: 21px;
 }
@@ -45,6 +47,10 @@ nav.menu-lateral.expandir {
     color: white;
     font-size: 24px;
     cursor: pointer;
+}
+
+.btn-expandir img{
+    width: 120px;
 }
 
 ul {

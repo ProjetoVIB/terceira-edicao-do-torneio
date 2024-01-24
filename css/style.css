@@ -38,14 +38,13 @@ nav.menu-lateral.expandir {
 
 .btn-expandir {
     width: 100%;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .btn-expandir i {
     color: white;
     font-size: 24px;
     cursor: pointer;
-    padding-left: 12.3px;
 }
 
 ul {

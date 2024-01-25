@@ -1,6 +1,6 @@
-const menuItem = document.querySelectorAll('.item-menu')
-
 //Função de Item Ativo
+
+const menuItem = document.querySelectorAll('.item-menu')
 
 function selectItem(){
     menuItem.forEach((item)=>

@@ -52,7 +52,7 @@ nav.menu-lateral {
     width: 4.375rem;
     height: 100%;
     background-color: var(--color01);
-    box-shadow: 0.188rem 0 0 var(--color00);
+    box-shadow: 0.1rem 0 0 var(--color00);
     position: fixed;
     top: 0;
     left: 0;
